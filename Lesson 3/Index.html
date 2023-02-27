@@ -5,71 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Student Registeration Form</title>
+    <style>
+      body{
+        background-color: aqua;
+      }
+      div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
   </head>
 
   <body>
-    <h1><center>Student Registeration Form</center></h1>
+    <h1><b><center>Student Registeration Form</center></b></h1>
     <hr>
+    <div>
+      <form>
+        <p>
+          <b>Firstname</b><br>
+          <input type="text" placeholder="Firstname">
+        </p>
 
-    <form>
-      <label>Firstname</label><br>
-      <input type="text">
-    </form><br>
+        <p>
+          <b>Middlename</b><br>
+          <input type="text" placeholder="Middlename">
+        </p>
 
-    <form>
-      <label>Middlename</label><br>
-      <input type="text">
-    </form><br>
+        <p>
+          <b>Lastname</b><br>
+          <input type="text" placeholder="Lastname">
+        </p>
 
-    <form>
-      <label>Lastname</label><br>
-      <input type="text">
-    </form><br>
+        <p>
+          <b>Course:</b>
+          <select>
+            <option>Course</option><i>Course</i>
+            <option>1</option><i>1</i>
+            <option>2</option><i>2</i>
+          </select>
+        </p>
 
-    <form>
-      <label>Course:</label>
-      <select>
-        <option>Course</option>
-        <option></option>
-        <option></option>
-      </select>
-    </form><br>
+        <p>
+          <b>Gender:</b><br>
+          <input type="radio" name="Male"><i>Male</i>
+          <input type="radio" name="Femail"><i>Female</i>
+          <input type="radio" name="Khác"><i>Khác</i>
+        </p>
 
-    <form>
-      <label>Gender:</label>
-      <input type="radio" name="gender" value="Male">Male
-      <input type="radio" name="gender" value="Female">Female
-      <input type="radio" name="gender" value="Khác">Khác
-    </form><br>
+        <p>
+          <b>Phone:</b><br>
+          <select>
+            <option>+91</option>
+          </select><br><br>
+          <input type="text" placeholder="Phone no" width="20" height="40">
+        </p>
 
-    <form>
-      <label>Phone:</label><br>
-      <input type="number">
-    </form><br>
+        <p>
+          <b>Current Address:</b><br>
+          <textarea type="text" cols="20" rows="5" placeholder="Current Address"></textarea>
+        </p>
 
-    <form>
-      <label>Curent Address</label><br>
-      <textarea type="text" cols="20" rows="5"></textarea>
-    </form><br>
+        <p>
+          <b>Email</b><br>
+          <input type="email" placeholder="Enter Email">
+        </p>
 
-    <form>
-      <label>Email</label><br>
-      <input type="email"/>
-    </form><br>
+        <p>
+          <b>Password</b><br>
+          <input type="password" placeholder="Enter Password">
+        </p>
 
-    <form>
-      <label>Password</label><br>
-      <input type="password">
-    </form><br>
-
-    <form>
-      <label>Re-type Password:</label><br>
-      <input type="password">
-    </form><br>
-
-    <form>
-      <button>Register</button>
-    </form>
+        <p>
+          <b>Re-type Password</b><br>
+          <input type="password" placeholder="Retype Password">
+        </p>
+        <div class="Register">
+         <button>Register</button>
+        </div>
+      </form>
+    </div>
 
   </body>
 </html>
