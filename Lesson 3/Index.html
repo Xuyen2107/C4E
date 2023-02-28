@@ -9,32 +9,27 @@
       body{
         background-color: aqua;
       }
-      div{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
     </style>
   </head>
 
   <body>
     <h1><b><center>Student Registeration Form</center></b></h1>
-    <hr>
+    <hr color="#fff"/>
     <div>
       <form>
         <p>
-          <b>Firstname</b><br>
-          <input type="text" placeholder="Firstname">
+          <b>Firstname</b><br/>
+          <input type="text" placeholder="Firstname" style="width: 100%;" height="auto"/>
         </p>
 
         <p>
           <b>Middlename</b><br>
-          <input type="text" placeholder="Middlename">
+          <input type="text" placeholder="Middlename" style="width: 100%;" height="auto"/>
         </p>
 
         <p>
           <b>Lastname</b><br>
-          <input type="text" placeholder="Lastname">
+          <input type="text" placeholder="Lastname" style="width: 100%;" height="auto"/>
         </p>
 
         <p>
@@ -48,40 +43,38 @@
 
         <p>
           <b>Gender:</b><br>
-          <input type="radio" name="Male"><i>Male</i>
-          <input type="radio" name="Femail"><i>Female</i>
-          <input type="radio" name="Khác"><i>Khác</i>
+          <input type="radio" name="Sex"/> <i>Male</i>
+          <input type="radio" name="Sex"/> <i>Female</i>
+          <input type="radio" name="Sex"/> <i>Khác</i>
         </p>
 
         <p>
           <b>Phone:</b><br>
-          <select>
-            <option>+91</option>
-          </select><br><br>
-          <input type="text" placeholder="Phone no" width="20" height="40">
+          <input type="tel" style="width: 100%;" height="auto" value="+91"/><br><br>
+          <input type="tel" placeholder="Phone no" style="width: 100%; height: auto;"/>
         </p>
 
         <p>
           <b>Current Address:</b><br>
-          <textarea type="text" cols="20" rows="5" placeholder="Current Address"></textarea>
+          <textarea type="text" placeholder="Current Address" cols="100%" rows="5"></textarea>
         </p>
 
         <p>
           <b>Email</b><br>
-          <input type="email" placeholder="Enter Email">
+          <input type="email" placeholder="Enter Email" style="width: 100%;" height="auto"/>
         </p>
 
         <p>
           <b>Password</b><br>
-          <input type="password" placeholder="Enter Password">
+          <input type="password" placeholder="Enter Password" style="width: 100%;" height="auto"/>
         </p>
 
         <p>
           <b>Re-type Password</b><br>
-          <input type="password" placeholder="Retype Password">
+          <input type="password" placeholder="Retype Password" style="width: 100%;" height="auto"/>
         </p>
         <div class="Register">
-         <button>Register</button>
+         <button style="width: 100%;">Register</button>
         </div>
       </form>
     </div>
