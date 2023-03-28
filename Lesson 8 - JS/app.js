@@ -1,4 +1,4 @@
-// //Bài 1: Dùng vòng lặp for, while để xuất ra các số chẵn từ 0 đến 100.
+//Bài 1: Dùng vòng lặp for, while để xuất ra các số chẵn từ 0 đến 100.
 
 // for(let i = 0; i<=100; i++) {
 //     if(i % 2 == 0){
@@ -16,7 +16,7 @@
 
 
 
-// //Bài 2: Nhập vào 2 tham số a, b, in ra thông báo so sánh giữa 2 số.
+//Bài 2: Nhập vào 2 tham số a, b, in ra thông báo so sánh giữa 2 số.
 
 // let a = Number(prompt("Nhập vào số a"));
 // let b = Number(prompt("Nhập vào số b"));
@@ -189,5 +189,3 @@
 // } else {
 //   console.log("Béo phì");
 // }
-
-
